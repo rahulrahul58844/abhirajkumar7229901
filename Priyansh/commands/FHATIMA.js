@@ -17,7 +17,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
      react.includes("virat") || 
 react.includes("fhatima")) {
 		var msg = {
-				body: "Fhatima mullo ki bahan hai😠😠",attachment: fs.createReadStream(__dirname + `/noprefix/owner.jpeg`)
+				body: "Fhatima mullo ki bahan hai😠😠",attachment: fs.createReadStream(__dirname + `/noprefix/fhatima.jpeg`)
 			}
 			api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("📷", event.messageID, (err) => {}, true)
@@ -27,4 +27,5 @@ react.includes("fhatima")) {
 
 
 			}
+
 
