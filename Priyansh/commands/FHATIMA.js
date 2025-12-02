@@ -15,7 +15,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	let react = event.body.toLowerCase();
 	if(react.includes("boss") ||
      react.includes("virat") || 
-react.includes("owner")) {
+react.includes("fhatima")) {
 		var msg = {
 				body: "Fhatima mullo ki bahan hai😠😠",attachment: fs.createReadStream(__dirname + `/noprefix/owner.jpeg`)
 			}
@@ -27,3 +27,4 @@ react.includes("owner")) {
 
 
 			}
+
