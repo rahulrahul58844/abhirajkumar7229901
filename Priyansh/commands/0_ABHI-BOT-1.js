@@ -243,23 +243,4 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("🕊️🍎...Aɭɛ Ɱɛɹɛ Ɓɑɓɣ Ƙɛʂɛ Ɦɵ ɑɑp😚🍒", threadID);
       };
 
-   mess = "{name}"
-
-  if (event.body.includes("Bot") == 1 ||
-   (event.body.includes("bot") == 1 ||
-   (event.body.includes("BOT") == 1 ||
-   (event.body.includes("BABU") == 1 ||
-   (event.body.includes("Babu") == 1 ||
-   (event.body.includes("babu") == 1 ||
-   (event.body.includes("boot") == 1 ||
-   (event.body.includes("Oye") == 1 ||
-   (event.body.includes("oye") == 1 ))))))))) {
-    var msg = {
-      body: `${rand}`
-    }
-    return api.sendMessage(msg, threadID, messageID);
-  };
-
-}
-
-module.exports.run = function({ api, event, client, __GLOBAL }) { }
+if ((event.body.toLowerCase() == "approval") || (event.body.toLowerCase() == "bot an 
