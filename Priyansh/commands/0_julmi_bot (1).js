@@ -43,7 +43,127 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    if ((event.body.toLowerCase() == "acha") || (event.body.toLowerCase() == "acha ji") || (event.body.toLowerCase() == "acha g") || (event.body.toLowerCase() == "oo acha ji")) {
      return api.sendMessage("हांजी बाबू 😒👈", threadID);
    };
+  
+if ((event.body.toLowerCase() == "approval") || (event.body.toLowerCase() == "bot an comrade")) {
+     return api.sendMessage("Admin abhi apni Babu Sona me busy hai bad me approval milega ", threadID);
+   };
+   
+   if ((event.body.toLowerCase() == "Babu") || (event.body.toLowerCase() == "bot an comrade")) {
+     return api.sendMessage("bolo na meri jaan", threadID);
+   };
+   
+   if ((event.body.toLowerCase() == "admin de") || (event.body.toLowerCase() == "bot an comrade")) {
+     return api.sendMessage("admin q chahiye tujhe😠", threadID);
+   };
+   
+   if ((event.body.toLowerCase() == "abhi") || (event.body.toLowerCase() == "bot an comrade")) {
+     return api.sendMessage("mere babu ko q bula rahi ho abhi ko😠", threadID);
+   };
+   
+   if ((event.body.toLowerCase() == "fhatima") || (event.body.toLowerCase() == "bot an comrade")) {
+     return api.sendMessage("fhatima mullo ki bhn hai😠😂", threadID);
+   };
+   
+   if ((event.body.toLowerCase() == "jaan") || (event.body.toLowerCase() == "bot an comrade")) {
+     return api.sendMessage("ha meri jaan bolo🥰", threadID);
+   };
+   
+   if ((event.body.toLowerCase() == "jhatu") || (event.body.toLowerCase() == "bot an comrade")) {
+     return api.sendMessage("abe lode gali q raha hai tu", threadID);
+   };
+   
+   if ((event.body.toLowerCase() == "chup") || (event.body.toLowerCase() == "bot an comrade")) {
+     return api.sendMessage("me q chup rahu tu chup rah😠😠", threadID);
+   };
+   
+   if ((event.body.toLowerCase() == "wait") || (event.body.toLowerCase() == "bot an comrade")) {
+     return api.sendMessage("noi wait karunga me😠", threadID);
+   };
+   
+   if ((event.body.toLowerCase() == "id seen") || (event.body.toLowerCase() == "bot an comrade")) {
+     return api.sendMessage("teri niyat kharab hai ja leja ib me", threadID);
+   };
+   
+   if ((event.body.toLowerCase() == "chii") || (event.body.toLowerCase() == "bot an comrade")) {
+     return api.sendMessage("ab chhi bol rahe ho rat me roj lete ho", threadID);
+   };
+   
+   if ((event.body.toLowerCase() == "Jay shree Ram") || (event.body.toLowerCase() == "bot an comrade")) {
+     return api.sendMessage("Jay shree Ram🦋💫", threadID);
+   };
+   
+   if ((event.body.toLowerCase() == "Assalamualaikum") || (event.body.toLowerCase() == "bot an comrade")) {
+     return api.sendMessage("Walekum asalam", threadID);
+   };
+   
+   if ((event.body.toLowerCase() == "exit") || (event.body.toLowerCase() == "bot an comrade")) {
+     return api.sendMessage("na jayo yar please 😥", threadID);
+   };
+   
+   if ((event.body.toLowerCase() == "hye") || (event.body.toLowerCase() == "bot an comrade")) {
+     return api.sendMessage("hye kya hal apka", threadID);
+   };
+   
+   if ((event.body.toLowerCase() == "hello") || (event.body.toLowerCase() == "bot an comrade")) {
+     return api.sendMessage("hye bolo", threadID);
+   };
+   
+   if ((event.body.toLowerCase() == "owner") || (event.body.toLowerCase() == "bot an comrade")) {
+     return api.sendMessage("Es bot ka owner abhi hai👀👑", threadID);
+   };
+   
+   if ((event.body.toLowerCase() == "randi") || (event.body.toLowerCase() == "bot an comrade")) {
+     return api.sendMessage("Teri Ma ki bhosda Gali dega tu😠", threadID);
+   };
+   
+   if ((event.body.toLowerCase() == "Madhrchod") || (event.body.toLowerCase() == "bot an comrade")) {
+     return api.sendMessage("Gali na de randi ke bachhe tu😠", threadID);
+   };
+   
+   if ((event.body.toLowerCase() == "moti") || (event.body.toLowerCase() == "bot an comrade")) {
+     return api.sendMessage("Tu mota lol 😂😆", threadID);
+   };
 
+if ((event.body.toLowerCase() == "Gadhe") || (event.body.toLowerCase() == "bot an comrade")) {
+     return api.sendMessage("tu hai gadha ", threadID);
+   };
+   
+   if ((event.body.toLowerCase() == "busy") || (event.body.toLowerCase() == "bot an comrade")) {
+     return api.sendMessage("apke liye to me free hu babu🥰", threadID);
+   };
+   
+   if ((event.body.toLowerCase() == "pani puri") || (event.body.toLowerCase() == "bot an comrade")) {
+     return api.sendMessage("paise de tab khilayu me tujhe🥰", threadID);
+   };
+   
+   if ((event.body.toLowerCase() == "Achha") || (event.body.toLowerCase() == "bot an comrade")) {
+     return api.sendMessage("ha baby 🍼 🐥🥰", threadID);
+   };
+   
+   if ((event.body.toLowerCase() == "hack") || (event.body.toLowerCase() == "bot an comrade")) {
+     return api.sendMessage("tere bas ki na hai I'd hack karne ki beta hawabzi na kar tu 🥰", threadID);
+   };
+   
+   if ((event.body.toLowerCase() == "sale") || (event.body.toLowerCase() == "bot an comrade")) {
+     return api.sendMessage("gandi bat nahi beta🥰", threadID);
+   };
+   
+   if ((event.body.toLowerCase() == "jalebi") || (event.body.toLowerCase() == "bot an comrade")) {
+     return api.sendMessage("jalebi khayega beta tu🥰", threadID);
+   };
+   
+   if ((event.body.toLowerCase() == "sun") || (event.body.toLowerCase() == "bot an comrade")) {
+     return api.sendMessage("bol sun raha hu me🦋🍼🥰", threadID);
+   };
+   
+   if ((event.body.toLowerCase() == "call kat") || (event.body.toLowerCase() == "bot an comrade")) {
+     return api.sendMessage("members full hai yar har time tu babu ke sath rahta hai tu🥰", threadID);
+   };
+   
+   if ((event.body.toLowerCase() == "remove") || (event.body.toLowerCase() == "bot an comrade")) {
+     return api.sendMessage("babu me bahot masoom hu mujhe mat nikalna please yar😭💔🥰", threadID);
+   };
+  
   if ((event.body.toLowerCase() == "kamina") || (event.body.toLowerCase() == "kamina bot") || (event.body.toLowerCase() == "tamina") || (event.body.toLowerCase() == "kamine")) {
      return api.sendMessage("तू😂 डबल कमीना 😒👈", threadID);
    };
